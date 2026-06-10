@@ -58,8 +58,7 @@ export default function Hero() {
                 <ArrowDown size={16} className="group-hover:translate-y-0.5 transition-transform" />
               </a>
               <a
-                href="/Anujkumar_BusinessAnalyst_Resume.pdf"
-                download
+                href="public\Anujkumar_BusinessAnalyst_Resume.pdf"
                 className="flex items-center gap-2 border border-slate-700 hover:border-cyan-500/50 text-white hover:text-cyan-400 font-semibold px-7 py-3 rounded-full transition-all duration-200 text-sm bg-slate-900/50"
               >
                 <Download size={16} />
@@ -105,7 +104,7 @@ export default function Hero() {
             <div className="absolute -inset-10 rounded-[2.5rem] bg-gradient-to-br from-cyan-500/20 via-slate-900/10 to-blue-500/20 blur-3xl" />
             <div className="relative overflow-hidden rounded-[2rem] border border-slate-700/80 bg-slate-950/70 shadow-2xl shadow-cyan-500/10">
               <img
-                src="/profile-photo.png"
+                src="public\profile-photo.png"
                 alt="Anuj Kumar Rajput"
                 className="h-[520px] w-full object-cover object-top sm:h-[560px]"
               />
